@@ -3,7 +3,7 @@
 Extracting and standardizing medication data from unstructured PDF sources
 
 ## Overview
-[EN]This project was born from a real challenge I faced at work.
+[EN] This project was born from a real challenge I faced at work.
 I used to work with datasets where the same product appeared under multiple different codes and descriptions, making it almost impossible to perform consistent analysis.
 
 A key issue was that the dosage (in mg/ml) — crucial to distinguish product variations — was often embedded within unstructured text fields or formatted inconsistently across systems.
