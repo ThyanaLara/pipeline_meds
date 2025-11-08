@@ -8,7 +8,7 @@ I used to work with datasets where the same product appeared under multiple diff
 
 A key issue was that the dosage (in mg/ml) — crucial to distinguish product variations — was often embedded within unstructured text fields or formatted inconsistently across systems.
 So I decided to build a custom Python pipeline that could:
-   - Extract medication information from a PDF table (in this case, BRASÍNDICE – a public medication reference);
+   - Extract medication information from a PDF table;
    - Identify and clean product names;
    - Detect and normalize the dosage amount (mg/ml/g);
    - Combine both into a single standardized identifier that allows linking inconsistent records referring to the same medication.
